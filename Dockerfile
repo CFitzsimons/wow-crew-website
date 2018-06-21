@@ -20,7 +20,7 @@ RUN npm run build
 RUN npm install -g serve
 
 # Serve
-CMD serve --port 8100 -s dist
+CMD serve -l 8100 dist
 
 # Expose the app port
 EXPOSE 8100
