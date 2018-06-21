@@ -1,0 +1,8 @@
+node_modules
+package-lock.json
+dist/*.js
+dist/*.eot
+dist/*.svg
+dist/*.ttf
+yarn-error.log
+yarn.lock
